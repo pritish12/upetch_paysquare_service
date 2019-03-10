@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:upetch_paysquare_service_example/upetch_razorpay_plugin.dart';
+import 'package:upetch_paysquare_service/upetch_paysquare_service.dart';
 
 main() => runApp(MyApp());
 
@@ -34,7 +34,7 @@ class MyApp extends StatelessWidget {
 
     Map<dynamic, dynamic> paymentResponse = Map();
     paymentResponse =
-        await UpetchRazorPayPlugin.openRazorPaymentDialog(options);
+        await UpetchPaysquareService.openRazorPaymentDialog(options);
     print("response $paymentResponse");
   }
 }

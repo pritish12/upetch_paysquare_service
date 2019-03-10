@@ -1,0 +1,29 @@
+PODS:
+  - Flutter (1.0.0)
+  - razorpay-pod (1.0.28)
+  - upetch_paysquare_service (0.0.2):
+    - Flutter
+    - razorpay-pod (= 1.0.28)
+
+DEPENDENCIES:
+  - Flutter (from `.symlinks/flutter/ios`)
+  - upetch_paysquare_service (from `.symlinks/plugins/upetch_paysquare_service/ios`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - razorpay-pod
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: ".symlinks/flutter/ios"
+  upetch_paysquare_service:
+    :path: ".symlinks/plugins/upetch_paysquare_service/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 58dd7d1b27887414a370fcccb9e645c08ffd7a6a
+  razorpay-pod: 85ceeb8bbb2863a86beaee8988482c35b27e830e
+  upetch_paysquare_service: e3d506f9227d4105b0b212714a564152038acb37
+
+PODFILE CHECKSUM: ebd43b443038e611b86ede96e613bd6033c49497
+
+COCOAPODS: 1.6.1
