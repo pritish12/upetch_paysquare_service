@@ -2,7 +2,7 @@ import Flutter
 import UIKit
 import Razorpay
 
-public class SwiftUpetchPaysquareServicePlugin: NSObject, FlutterPlugin, RazorpayPaymentCompletionProtocol {
+@objc public class SwiftUpetchPaysquareServicePlugin: NSObject, FlutterPlugin, RazorpayPaymentCompletionProtocol {
     
     var razorpay: Razorpay!
     var _result: FlutterResult!
