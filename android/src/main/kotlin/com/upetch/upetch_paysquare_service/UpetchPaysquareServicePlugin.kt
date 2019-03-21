@@ -26,7 +26,7 @@ class UpetchPaysquareServicePlugin constructor(activity: Activity, channel: Meth
     companion object {
         @JvmStatic
         fun registerWith(registrar: Registrar) {
-            val channel = MethodChannel(registrar.messenger(), "upetch_razor_pay_plugin")
+            val channel = MethodChannel(registrar.messenger(), "upetch_paysquare_service")
             val _pluginInstance = UpetchPaysquareServicePlugin(registrar.activity(), channel)
             channel.setMethodCallHandler(_pluginInstance)
             registrar.addActivityResultListener(_pluginInstance)
