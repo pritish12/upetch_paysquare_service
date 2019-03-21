@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
   }
 
   Future<Null> _showRazorPayView() async {
-    String apikey = "rzp_test_cupPGaFT8IHVLm";
+    String apikey = "API_KEY";
 
     Map<String, dynamic> options = Map();
     options.putIfAbsent("name", () => "Testing");
